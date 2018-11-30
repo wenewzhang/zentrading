@@ -1,0 +1,14 @@
+{"1.1.0",
+[{<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.8">>},1},
+ {<<"jiffy">>,
+  {git,"https://github.com/davisp/jiffy.git",
+       {ref,"a13b9e1ec9849a3bc385fdbd42d5de63c6681bf5"}},
+  0},
+ {<<"lager">>,{pkg,<<"lager">>,<<"3.2.1">>},0},
+ {<<"p1_mysql">>,{pkg,<<"p1_mysql">>,<<"1.0.1">>},0}]}.
+[
+{pkg_hash,[
+ {<<"goldrush">>, <<"2024BA375CEEA47E27EA70E14D2C483B2D8610101B4E852EF7F89163CDB6E649">>},
+ {<<"lager">>, <<"EEF4E18B39E4195D37606D9088EA05BF1B745986CF8EC84F01D332456FE88D17">>},
+ {<<"p1_mysql">>, <<"D2BE1CFC71BB4F1391090B62B74C3F5CB8E7A45B0076B8CB290CD6B2856C581B">>}]}
+].

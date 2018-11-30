@@ -1,0 +1,28 @@
+{application, zentrading,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { zentrading_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    inets,
+    crypto,
+    goldrush,
+    lager,
+    p1_mysql,
+    jiffy
+   ]},
+  {env,[
+    {mysql_host,"127.0.0.1"},
+    {mysql_port,3306},
+    {mysql_database,"zt"},
+    {mysql_user,"zt"},
+    {mysql_password,"Bhbl930649"}
+  ]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
